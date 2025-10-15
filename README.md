@@ -9,7 +9,7 @@ Simple Tampermonkey plugin to restore old (pre-summer 2025 YouTube player design
 2. (Only for Google chrome): \
 Right-click the extension icon in the top-right menu, click "Manage extension". Enable "Developer mode". Enable "Allow user scripts".
 3. Open this link in the browser: \
-[https://github.com/mraliscoder/restore-yt-player/raw/refs/heads/master/yt-restore.user.js](https://github.com/mraliscoder/restore-yt-player/raw/refs/heads/master/yt-restore.user.js)
+[https://github.com/mraliscoder/restore-yt-player/raw/refs/heads/main/yt-restore.user.js](https://github.com/mraliscoder/restore-yt-player/raw/refs/heads/main/yt-restore.user.js)
 4. Click Install
 
 ## Please subscribe
