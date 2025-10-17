@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Old YouTube Player
 // @namespace    http://tampermonkey.net/
-// @version      2025-10-15
+// @version      2025-10-17
 // @description  Disable new modern UI player (YouTube)
 // @author       You
 // @match        https://www.youtube.com/*
@@ -37,7 +37,7 @@
     display: flex;
     align-items: center;
 }
-.ytp-left-controls .ytp-button:not(.ytp-next-button):not(.ytp-prev-button):not(.ytp-live-badge):not(.ytp-chapter-title):not([style*="display: none"]):not([style*="display:none"]),
+.ytp-left-controls .ytp-button:not([style*="display: none"]):not([style*="display:none"]),
 .ytp-right-controls .ytp-button:not(.ytp-expand-right-bottom-section-button):not(.ytp-autonav-toggle):not([style*="display: none"]):not([style*="display:none"]),
 .ytp-right-controls .ytp-subtitles-button-icon:not([style*="display: none"]):not([style*="display:none"]) {
     display: flex !important;
