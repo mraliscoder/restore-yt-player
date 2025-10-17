@@ -7,6 +7,8 @@
 // @match        https://www.youtube.com/*
 // @match        https://youtube.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
+// @updateURL    https://github.com/mraliscoder/restore-yt-player/raw/refs/heads/main/yt-restore.user.js
+// @downloadURL  https://github.com/mraliscoder/restore-yt-player/raw/refs/heads/main/yt-restore.user.js
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
