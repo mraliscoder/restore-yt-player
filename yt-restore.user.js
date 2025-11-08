@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Old YouTube Player
 // @namespace    http://tampermonkey.net/
-// @version      2025-10-17-1
+// @version      2025-11-08
 // @description  Disable new modern UI player (YouTube)
 // @author       You
 // @match        https://www.youtube.com/*
@@ -61,9 +61,14 @@
     display: flex;
     gap: 3px;
 }
+/* height is 48px now
 .ytp-chrome-bottom {
     height: 54px !important;
 }
+.ytp-chrome-controls {
+    margin-top: 6px;
+}
+*/
     `;
     document.head.appendChild(css);
     
